@@ -32,9 +32,15 @@
 
 (defun spacemacs-prettier/init-prettier-js ()
   (require 'prettier-js)
+      
   (add-hook 'js-mode-hook
             (lambda ()
               (add-hook 'before-save-hook 'prettier nil 'make-it-local)))
+      
+  (add-hook 'js2-mode-hook
+            (lambda ()
+              (add-hook 'before-save-hook 'prettier nil 'make-it-local)))      
+      
   (add-hook 'react-mode-hook
             (lambda ()
               (add-hook 'before-save-hook 'prettier nil 'make-it-local)))
