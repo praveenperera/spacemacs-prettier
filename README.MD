@@ -7,7 +7,7 @@
 ### Optional Args
 You can set prettier arguments in your .spacemacs file:
 
-```
+```elisp
   ;; prettier settings
   (setq prettier-args '(
                         "--trailing-comma" "all"
