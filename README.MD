@@ -19,9 +19,10 @@ You can set prettier arguments in your .spacemacs file:
 
 ```elisp
   ;; prettier settings
-  (setq prettier-args '(
-                        "--trailing-comma" "all"
-                        ))
+  (setq prettier-js-args '(
+    "--trailing-comma" "all"
+    "--bracket-spacing" "false"
+  ))
 ```  
 
 ### Extra
