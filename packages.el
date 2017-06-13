@@ -28,7 +28,7 @@
 ;;   `spacemacs-prettier/post-init-PACKAGE' to customize the package as it is loaded.
 
 (setq spacemacs-prettier-packages
-      '((prettier-js :location local)))
+      '((prettier-js :fetcher github :repo "prettier/prettier-emacs")))
 
 (defun spacemacs-prettier/init-prettier-js ()
   (require 'prettier-js))
