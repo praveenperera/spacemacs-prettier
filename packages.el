@@ -31,4 +31,5 @@
       '((prettier-js :fetcher github :repo "prettier/prettier-emacs")))
 
 (defun spacemacs-prettier/init-prettier-js ()
-  (require 'prettier-js))
+  (require 'prettier-js)
+  (spacemacs|diminish prettier-js-mode " Ⓟ" " P"))
