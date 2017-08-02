@@ -1,3 +1,12 @@
+## Deprecated 
+This package is no longer needed as prettier-js was added to [MELPA](https://github.com/melpa/melpa/pull/4777)
+
+* To install the MELPA package add prettier-js to `dotspacemacs-additional-packages` in your spacemacs file.
+
+---------------
+
+---------------
+
 ### Instructions 
 1. Clone this project into `~/.emacs.d/private/`
 2. Add `~/.emacs.d/private/` to `dotspacemacs-configuration-layer-path`
